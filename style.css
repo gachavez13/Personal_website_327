@@ -1,0 +1,133 @@
+html {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Courier New', monospace;
+  /* background-image: url("https://cdn.glitch.global/e5746026-cfad-4739-a4a5-deb71f682d20/hexagons.png"); */
+  /* background-color: #342E37; */
+  background: linear-gradient(to right, #342E37,#37323B,#342E37);
+  background-repeat: repeat;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#title {
+  font-family: 'Inconsolata', monospace;
+  background-color: #ABEBD2;
+  padding: 8px;
+}
+/* gonna use this for my own bio */
+#color_4_paragraphs{
+  background-color: #DECDF5;
+  padding: 4px;
+  border: 1px solid #342E37;
+  display: inline-block;
+}
+
+/* gonna use this for dicription of website */
+.color_4_desc{
+  background-color: #3581B8;
+  padding: 4px;
+  border: 1px solid #342E37;
+  display: inline-block;
+  background-clip: text;
+}
+/* text format for hyperlinks */
+#color_4_hype{
+  background-color: #C5EBC3;
+  padding: 10px;
+  border: 1px solid #342E37;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* align text right */
+.t-right{
+  text-align: right;
+}
+
+/* align text left */
+.t-left{
+  text-align: left;
+}
+
+/* use to align some text */
+.t-center{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* keep on the same row */
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.t-contain{
+  width: 30%;
+}
+.pad40 {
+  padding: 40px;
+}
+.pad10 {
+  padding: 10px;
+}
+
+.picrew {
+  border-radius: 200px; 
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, .5);
+}
+
+.square {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  background-color: #36827F;
+  border-radius: 20px;
+  padding: 20px;
+  height: 250px;
+  width: 300px; 
+}
+
+.top-left {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.top-right {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.bottom-left {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.bottom-right {
+  grid-column: 2;
+  grid-row: 2;
+}
+.image-fit {
+  width: 25%;
+  height: 25%;
+  overflow: hidden;
+}
+
+.projects {
+  margin: 0px auto; /* this centers a div */
+  padding: 10px;
+  border-radius: 50px; 
+  height: 300px;
+  width: 300px;
+  background-color: #342E37;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, .5);
+}
+
+/* this is from compton's original code */
+.polaroid {
+  border: 3px solid white;
+}
+
